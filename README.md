@@ -12,10 +12,11 @@ A dashboard is created per each year's data and consolidated four year data, tha
 
 Out of 4 types of company data released by MCA, viz., Indian Private Limited, Foreign Private Limited, Indian Limited Liability and Foreign Limited Liability, the dashboard is currently available for Indian Limited Liability Partnership Companies only. Dashboards for other types of company is planned for but not scheduled yet. Any contribution in creation of other dashboards or addition of visualization to existing dashboard is welcome. 
 
-1. [Indian LLP - 2016 - Dashboard](https://datastudio.google.com/reporting/b1509210-64e7-42cc-83ba-0a0b2840cac1)
-1. [Indian LLP - 2017 - Dashboard](https://datastudio.google.com/reporting/ea5de64f-4c29-4dc7-84e5-aa475998dba6)
-1. [Indian LLP - 2018 - Dashboard](https://datastudio.google.com/reporting/5d69d941-f91c-4462-bbce-3c3de286a421)
-1. [Indian LLP - 2019 - Dashboard](https://datastudio.google.com/reporting/fd2ea4ef-6a90-4392-bd79-3f9e69b10f77)
+1. [Indian LLP Dashboard - 2016](https://datastudio.google.com/reporting/b1509210-64e7-42cc-83ba-0a0b2840cac1)
+1. [Indian LLP Dashboard - 2017](https://datastudio.google.com/reporting/ea5de64f-4c29-4dc7-84e5-aa475998dba6)
+1. [Indian LLP Dashboard - 2018](https://datastudio.google.com/reporting/5d69d941-f91c-4462-bbce-3c3de286a421)
+1. [Indian LLP Dashboard - 2019](https://datastudio.google.com/reporting/fd2ea4ef-6a90-4392-bd79-3f9e69b10f77)
+1. [Indian LLP Dashboard - 2016-2019](https://datastudio.google.com/reporting/5737e37d-ea1b-472d-955c-042e013dbf84)
 
 Please cut a ticket in GitHub to report any issues. 
 
