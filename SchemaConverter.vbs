@@ -32,7 +32,7 @@ Sub StripLLP()
     Dim DestSheet As Worksheet: Set DestSheet = DestBook.Worksheets("Sheet1")
     Dim YearPos As Integer: YearPos = 2
     Dim MonthPos As Integer: MonthPos = 1
-    Dim DatePos As Integer: DatePos = 0
+    Dim DayPos As Integer: DayPos = 0
     Dim i As Integer
     Dim cellvalue As String
     Dim delimited() As String
@@ -42,10 +42,10 @@ Sub StripLLP()
     DestSheet.Range("A1:K1").Value = Array("Count", "No", "Name", "Date", "State", "ROC", "Partners", "Designated Partners", "Obligation", "Division", "Activity")
     For i = 1 To NumRows
         DestRange.Cells(RowIndex:=i, ColumnIndex:=DestCountCol).Value = "1"
-        'DestRange.Cells(RowIndex:=i, ColumnIndex:=DestDateCol).Value = SrcRange.Cells(RowIndex:=i, ColumnIndex:=SrcDateCol).Value
         cellvalue = SrcRange.Cells(RowIndex:=i, ColumnIndex:=SrcDateCol).Value
         delimited = Split(Replace(cellvalue, ".", "/"), Delimiter)
-        DestRange.Cells(RowIndex:=i, ColumnIndex:=DestDateCol).Value = delimited(YearPos) & "-" & delimited(MonthPos) & "-" & delimited(DatePos)
+        delimited = Split(Replace(cellvalue, "-", "/"), Delimiter)
+        DestRange.Cells(RowIndex:=i, ColumnIndex:=DestDateCol).Value = delimited(YearPos) & "-" & delimited(MonthPos) & "-" & delimited(DayPos)
         DestRange.Cells(RowIndex:=i, ColumnIndex:=DestNoCol).Value = SrcRange.Cells(RowIndex:=i, ColumnIndex:=SrcNoCol).Value
         DestRange.Cells(RowIndex:=i, ColumnIndex:=DestNameCol).Value = SrcRange.Cells(RowIndex:=i, ColumnIndex:=SrcNameCol).Value
         DestRange.Cells(RowIndex:=i, ColumnIndex:=DestStateCol).Value = SrcRange.Cells(RowIndex:=i, ColumnIndex:=SrcStateCol).Value
