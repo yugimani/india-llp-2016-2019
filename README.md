@@ -21,4 +21,4 @@ Please cut a ticket in GitHub to report any issues.
 
 Please reach checkout.yugimani@gmail.com for queries related to publishing or contributing. 
 
-©Yugender Subramanian
+©[Yugender Subramanian](https://www.linkedin.com/in/yugenderps/)
